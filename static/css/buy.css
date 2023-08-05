@@ -1,0 +1,90 @@
+/* body */
+body{
+    font-family: 'Manrope', sans-serif;
+    background: white;
+    width: 100% !important;
+    height: 100% !important;
+    margin: 0px !important;
+    padding: 0px !important;
+    overflow-x: hidden !important;
+}
+
+#profile{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.btn{
+    border-radius: 40px;
+    margin: 2%;
+    margin-left: 0%;
+}
+
+.btn:hover {
+  box-shadow: 0.2em 0.2em .2em grey;
+}
+
+.card{
+    margin: 0% 2%;
+    background-color: rgb(234, 255, 250);
+}
+
+#featcon.container-fluid{
+    padding: 3% 3% 3% 0%;
+    margin-left: 12%;
+    margin-right: 0%;
+}
+
+.col-form-label {
+    color: #111;
+}
+
+@media (min-width: 950px) {
+    main {
+      padding-left: 300px;
+ }
+}
+
+.desc-img{
+    width: 80%;
+    height: 100%;
+    padding-left: 30%;
+    padding-top: 5%;
+} 
+
+@media (max-width: 990px) {
+    #main{
+        margin-left: 1%;
+        padding: 3%;
+        width: 100%;
+    }
+    .sidebarMenu{
+        width: 0px;
+    }
+    .desc-img{
+        width: 80%;
+        height: 100%;
+        padding-left: 15%;
+        padding-top: 5%;
+    } 
+    .btn{
+        border-radius: 40px;
+    }
+}
+
+@media (min-width: 990px) {
+    #navbar-mod{
+        display: none;
+    }
+}
+
+.left{
+    margin-left: 100px;
+    margin-right: 190px;
+    margin-top: 100px;
+}
+
+.right{
+    margin-right: 100px;
+    margin-top: 100px;
+}

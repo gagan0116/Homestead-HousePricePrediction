@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/flip.css')}}">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/buy.css')}}">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <title>Buy House</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Homestead</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="/">Home </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="/buy">Buy <span class="sr-only">(current)</span></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/sell">Sell</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/banglore">Bangalore</a>
+                        <a class="dropdown-item" href="/mumbai">Bombay</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <br>        
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 left">
+                <div class="wrapper">
+                    <div class="card front-face">
+                        <center><h3 class="padd">3bhk</h3></center>
+                       <img class="curve " style="border-radius:0" src="static/images/99ac1.png">  
+                       <center><h3 class="padd1">₹ 89Lakhs</h3>   </center>
+                    </div>
+                    <div class="card back-face">
+                       <img src="static/images/99ac1.png">
+                       <div class="info">
+                          <div class="title">
+                             Flat For Sale
+                          </div>
+                          <p>
+                             <br>FOR SALE
+                          </p>
+                       </div>
+                       <center>
+                       <ul>
+                          <a style="width:120px; border-radius: 10px;" href="/explore">Explore More</a>
+                       </ul>
+                    </center>
+                    </div>
+                 </div>
+                </div>
+            <div>    
+            <div class="col-md-3 right">
+                <div class="wrapper">
+                                <div class="card front-face">
+                                    <center><h3 class="padd">2BHK Flat</h3></center>
+                                <img class="curve" style="border-radius:0" src="static/images/99ac5.png">  
+                                <center><h3 class="padd1">₹ 100L</h3>   </center>
+                                </div>
+                                <div class="card back-face">
+                                <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                                <div class="info">
+                                    <div class="title">
+                                        
+                                    </div>
+                                    <p>
+                                        <br>FOR SALE
+                                    </p>
+                                </div>
+                                <ul>
+                                    <a style="width:120px; border-radius: 10px;" href="/explore1">Explore More</a>
+                                </ul>
+                                </div>
+                            </div>
+                            </div>
+                        </div> 
+                    </div>
+                    </nav>
+                    <br>        
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-3 left">
+                                <div class="wrapper">
+                                    <div class="card front-face">
+                                        <center><h3 class="padd">60 Acre Campus</h3></center>
+                                       <img class="curve " style="border-radius:0" src="static/images/iiitd.JPG">  
+                                       <center><h3 class="padd1">₹ 10Cr</h3>   </center>
+                                    </div>
+                                    <div class="card back-face">
+                                       <img src="static/images/iiitd.JPG">
+                                       <div class="info">
+                                          <div class="title">
+                                             IIIT Dharwad
+                                          </div>
+                                          <p>
+                                             <br>front-end developer
+                                          </p>
+                                       </div>
+                                       <center>
+                                       <ul>
+                                          <a style="width:120px; border-radius: 10px;" href="/explore">Explore More</a>
+                                       </ul>
+                                    </center>
+                                    </div>
+                                 </div>
+                                </div>
+                            <div>    
+                            <div class="col-md-3 right">
+                                <div class="wrapper">
+                                                <div class="card front-face">
+                                                    <center><h3 class="padd">2BHK Flat</h3></center>
+                                                <img class="curve" style="border-radius:0" src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">  
+                                                <center><h3 class="padd1">₹ 100L</h3>   </center>
+                                                </div>
+                                                <div class="card back-face">
+                                                <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500">
+                                                <div class="info">
+                                                    <div class="title">
+                                                        
+                                                    </div>
+                                                    <p>
+                                                        <br>front-end developer
+                                                    </p>
+                                                </div>
+                                                <ul>
+                                                    <a style="width:120px; border-radius: 10px;" href="/explore">Explore More</a>
+                                                </ul>
+                                                </div>
+                                            </div>
+                                            </div>
+                                        </div> 
+                                    </div>
+                                </body>   
+
+</html>

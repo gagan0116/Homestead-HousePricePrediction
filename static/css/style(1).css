@@ -1,0 +1,547 @@
+html,body {
+    margin: 0;
+    font-size: 100%;
+    background: #fff;
+	font-family: 'Thasadith', sans-serif;
+}
+
+body a {
+    text-decoration: none;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+	font-family: 'Thasadith', sans-serif;
+}
+#title-heading{
+    color: white;
+    margin-left: 32%;
+}
+
+#heading{
+    color: white;
+}
+
+body img {
+    max-width: 100%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.Bomhead{
+  text-align: center;
+  color: #71C9CE;
+}
+
+input[type="button"],
+input[type="submit"],
+input[type="text"],
+input[type="email"],
+input[type="search"] {
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+	color: #323648;
+}
+
+p {
+    margin: 0;
+    font-size: 17px;
+    line-height: 2em;
+    letter-spacing: 2px;
+    color: #707579;
+    font-weight: 600;
+}
+
+header {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+}
+
+.toggle {
+	display: none;
+}
+
+#logo a {
+	float: left;
+    font-size: .8em;
+    display: initial;
+    margin: 0;
+    letter-spacing: 1px;
+    color: #fff;
+    font-weight: 600;
+    padding: 3px 0;
+    border: none;
+}
+
+#logo a span.fa {
+    color: #e8cd30;
+}
+
+@media all and (max-width : 991px) {
+
+	.toggle {
+		display: block;
+		padding: 5px 15px;
+		font-size: 20px;
+		text-decoration: none;
+		border: none;
+		float: right;
+		background-color: #009f4d;
+		color: #fff;
+	}
+	.menu .toggle {
+		float: none;
+		text-align: center;
+		margin: auto;
+		width: 30%;
+		padding: 5px;
+		font-weight: normal;
+		font-size: 15px;
+		letter-spacing: 1px;
+	}
+
+	.toggle:hover {
+		color:#333;
+		background-color: #fff;
+	}
+
+	nav ul li {
+		display: block;
+		width: 100%;
+		padding: 7px 0;
+		}
+	nav a{
+		padding: 5px 0;
+	}
+	nav a:hover {
+		color: #333;
+	}
+	.login-icon {
+		text-align: center;
+	}
+	nav ul ul .toggle,
+	nav ul ul a {
+		padding: 0 40px;
+	}
+
+	nav ul ul ul a {
+		padding: 0 80px;
+	}
+
+	nav a:hover,
+ 	nav ul ul ul a {
+		background-color: transparent;
+	}
+
+	nav ul li ul li .toggle,
+	nav ul ul a,
+	nav ul ul ul a{
+		padding:14px 20px;
+		color:#FFF;
+		font-size:17px;
+	}
+
+
+	nav ul li ul li .toggle,
+	nav ul ul a {
+		background-color: #fff;
+	}
+	nav ul ul li a {
+		font-size: 15px;
+	}
+	ul.inner-ul{
+		padding: 0!important;
+	}
+
+	nav ul ul {
+		float: none;
+		position:static;
+		color: #ffffff;
+	}
+
+	nav ul ul li:hover > ul,
+	nav ul li:hover > ul {
+		display: none;
+	}
+
+	nav ul ul li {
+		display: block;
+		width: 100%;
+		padding: 0;
+	}
+
+	nav ul ul ul li {
+		position: static;
+	}
+
+}
+
+@media all and (max-width : 330px) {
+
+	nav ul li {
+		display:block;
+		width: 94%;
+	}
+
+}
+.user span.fa {
+    font-size: 25px;
+    color: #fff;
+}
+
+.backimg{
+  background: url("FYH1.png") !important;
+}
+
+.banner_w3lspvt {
+    position: relative;
+    z-index: 1;
+}
+
+.banner-top {
+    background: url(https://th.bing.com/th/id/R.78137f9f5404602d70b4f971b999c021?rik=EkzIqzzuirXrTQ&riu=http%3a%2f%2fwww.architectureartdesigns.com%2fwp-content%2fuploads%2f2018%2f07%2f17-Gorgeous-Traditional-Home-Exterior-Designs-You-Will-Find-Inspiration-In-6.jpg&ehk=S2gnnzh5Sn4LFLlVcjIb%2bxJxhQjQUXJIOCgwB3z12Vk%3d&risl=&pid=ImgRaw&r=0) no-repeat center;
+    background-size: 100%;
+}
+
+.w3layouts-banner-info {
+    padding-top: 16em;
+}
+
+.w3layouts-banner-info h3 {
+    font-size: 4em;
+    text-shadow: 3px 4px 6px rgba(45, 45, 45, 0.15);
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+.w3layouts-banner-info p {
+    max-width: 650px;
+    color: #fff;
+}
+.w3layouts-banner-info h4 {
+    color: #eee;
+    letter-spacing: 5px;
+	line-height: 35px;
+	text-transform: capitalize;
+}
+
+.w3layouts-banner-info i {
+    vertical-align: middle;
+}
+
+.banner-top,
+.banner-top1,
+.banner-top2,
+.banner-top3 {
+    min-height: 770px;
+}
+.overlay {
+    min-height: 770px;
+    background: rgba(0, 0, 0, 0.4);
+}
+.overlay1 {
+    min-height: 770px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.button-style {
+    padding: 15px 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    border: 2px solid #ccc;
+    background: none;
+    display: inline-block;
+}
+
+.button-style:hover {
+    color: #fff;
+}
+
+h3.heading {
+    font-size: 40px;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+p.about-text {
+    width: 80%;
+}
+.feature-grids .f-icon {
+    vertical-align: middle;
+    background: #009f4d;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    margin: 0.5em auto 0;
+    border-radius: 50%;
+}
+.feature-grids span.fa {
+    color: #fff;
+    font-size: 20px;
+    line-height: 70px;
+}
+.feature-grids h3 {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: 3px;
+    line-height: 30px;
+    text-transform: uppercase;
+}
+.feature-grids  p {
+    letter-spacing: 1px;
+}
+
+.core-grids p {
+    letter-spacing: 1px;
+}
+.core-right h3 {
+    font-size: 24px;
+    line-height: 42px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.serives-agile {
+    background: #009f4d;
+}
+.serives-agile h3.heading{
+	color: #fff;
+}
+.welcome-grid {
+    width: 20%;
+    float: left;
+}
+
+.welcome-grid h4 {
+    font-size: 22px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.welcome-grid span.fa {
+    color: #5eca9f;
+    color: #e8cd30;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.welcome-grid p {
+    color: #ccc;
+    line-height: 1.8em;
+    font-size: 16px;
+}
+
+.background-img {
+    background: url(../images/5.jpg) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+}
+.overlay-clr {
+    background: rgba(0, 0, 0, 0.5);
+}
+.bg-middle p {
+    letter-spacing: 1px;
+    color: #ccc;
+    line-height: 28px;
+}
+.bg-right ul li {
+    letter-spacing: 1px;
+    color: #ddd;
+    line-height: 30px;
+    font-size: 17px;
+    font-weight: 600;
+	text-transform: capitalize;
+}
+.bg-left h4 {
+    font-size: 26px;
+    line-height: 42px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.blog-grids {
+    margin-bottom: 120px;
+}
+
+.blog-left,.blog-middle,.blog-right{
+	position: relative;
+}
+.blog-info {
+    background: #fff;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: -2em;
+    position: absolute;
+    left: 6%;
+    right: 6%;
+    top: 250px;
+	box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 0.08), 0 5px 8px 0 rgba(0, 0, 0, 0.12), 0 1px 14px 0 rgba(0, 0, 0, 0.06);
+}
+.blog-info p {
+    letter-spacing: 1px;
+    line-height: 28px;
+}
+.blog-info h4 {
+    font-size: 22px;
+    line-height: 42px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+.text:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    background: #000;
+}
+.text h3.heading{
+	color: #fff;
+}
+
+.text p {
+    color: #ccc;
+    width: 80%;
+    margin: auto;
+    letter-spacing: 1px;
+}
+.text a.btn {
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: #333;
+    font-weight: 700;
+    padding: 12px 25px;
+    margin-top: 30px;
+    border-radius: 4px;
+    background: #e8cd30;
+    display: inline-block;
+}
+.text a.btn1 {
+    font-size: 17px;
+    letter-spacing: 2px;
+    color: #fff;
+    font-weight: 700;
+    padding: 12px 25px;
+    margin-top: 30px;
+    border-radius: 4px;
+    background: #009f4d;
+    display: inline-block;
+}
+
+p.footer-para {
+    max-width: 650px;
+    font-size: 15px;
+}
+
+.logo2 {
+    position: relative;
+}
+
+.logo2 a {
+    font-size: 36px;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.logo2 a span.fa {
+	color: #e8cd30;
+}
+
+.homelogo {
+    position: relative;
+}
+
+.homelogo a {
+    font-size: 18px;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 1px;
+}
+
+.footercopy-social ul li,
+.contact-left-footer ul li {
+    display: inline-block;
+}
+footer{
+    background: #191818;
+}
+.footercopy-social ul li a {
+    color: #333;
+    text-align: center;
+}
+
+.footercopy-social ul li a span.fa {
+    width: 20px;
+    font-size: 20px;
+    color: #666;
+    transition: 0.5s all;
+    -webkit-transition: 0.5s all;
+    -moz-transition: 0.5s all;
+    -o-transition: 0.5s all;
+    -ms-transition: 0.5s all;
+}
+
+.contact-left-footer ul li p span.fa {
+    color: #aaa;
+}
+
+.contact-left-footer ul li p a,
+.contact-left-footer ul li p {
+    color: #707579;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.w3l-copy p {
+    letter-spacing: 1px;
+}
+
+.w3l-copy p a {
+    color: #aaa;
+}
+
+.inner-banner:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.6;
+    background: #000;
+}
+
+.bombayimg {
+    background: url(https://th.bing.com/th/id/R.78137f9f5404602d70b4f971b999c021?rik=EkzIqzzuirXrTQ&riu=http%3a%2f%2fwww.architectureartdesigns.com%2fwp-content%2fuploads%2f2018%2f07%2f17-Gorgeous-Traditional-Home-Exterior-Designs-You-Will-Find-Inspiration-In-6.jpg&ehk=S2gnnzh5Sn4LFLlVcjIb%2bxJxhQjQUXJIOCgwB3z12Vk%3d&risl=&pid=ImgRaw&r=0) no-repeat center;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+}

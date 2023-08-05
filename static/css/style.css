@@ -1,0 +1,81 @@
+.back{
+  background-color: rgb(249 249 251);
+}
+
+.body{
+  font-family: "Adjusted Times New Roman", "Times New Roman", serif;
+}
+
+.backwhite{
+  background-color: white
+}
+
+.cont-margin{
+  margin-left: 50px;
+  margin-right: 0px;
+}
+
+.col-sm-4{
+  border-radius: 25px;
+}
+
+.card{
+  background-color:white;
+  padding: 10px;
+}
+
+.card:hover{
+  background-color:white;
+  padding: 10px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  z-index: 100;
+  transform: scale(1.1);
+}
+
+.predictimg{
+  width: 290px;
+  height: 170px;
+}
+
+
+.card-body{
+  text-align: center;
+}
+
+.strongname{
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.copyright {
+  padding: 28px 0;
+  margin-top: 55px;
+  background-color: #202020; }
+  .copyright span,
+  .copyright a {
+    color: #878787;
+    -webkit-transition: all 0.3s linear;
+    -o-transition: all 0.3s linear;
+    transition: all 0.3s linear; }
+  .copyright a:hover {
+    color:#007bff; }
+
+.copyright-menu ul {
+  text-align: right;
+  margin: 0; }
+
+.copyright-menu li {
+  display: inline-block;
+  padding-left: 20px; }
+
+  .blocked{
+    display: block
+  }
+
+  .strong{
+    font-weight: 10px;
+  }
+
+  
+

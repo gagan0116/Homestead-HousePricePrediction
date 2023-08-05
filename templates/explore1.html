@@ -1,0 +1,107 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homestead-Explore</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/explore.css')}}">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Homestead</a>
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/buy">Buy</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/sell">Sell</a>
+                </li>
+
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Predict
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="/banglore">Bangalore</a>
+                        <a class="dropdown-item" href="/mumbai">Bombay</a>
+                    </div>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container" style="margin: 0">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="wrapper" style="padding-top: 20px">
+                <input type="radio" name="slide" id="one" checked>
+                <input type="radio" name="slide" id="two">
+                <input type="radio" name="slide" id="three">
+                <input type="radio" name="slide" id="four">
+               
+                <div class="img img-1">
+                <img src="static/images/99ac6.png" alt="">
+                </div>
+                <div class="img img-2">
+                  <img src="static/images/99ac7.png" alt="">
+                </div>
+                <div class="img img-3">
+                  <img src="static/images/99ac3.png" alt="">
+                </div>
+               
+                <div class="sliders">
+                  <label for="one" class="one"></label>
+                  <label for="two" class="two"></label>
+                  <label for="three" class="three"></label>
+                  <label for="four" class="four"></label>
+                 
+                </div>
+              </div>
+          </div>
+        <div class="col-md-6" style="padding-left: 200px; padding-top: 100px">
+            <h4>House Type</h4><p>4BHK</p>
+            <h5>Price</h5><p>Rs.3cr</p>
+            <h5>Address</h5><p>193/4, A.P.G.O Colony, Sector 2, MVP Colony, Visakhapatnam, Andhra Pradesh 530017</p>
+            <h5>Phone Number</h5><p>9843256001</p>
+            <h5>email</h5><p>abc@gmail.com</p>
+          </div>
+        </div>
+      </div>
+
+      <center><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3800.075433056574!2d83.32678496405622!3d17.741084547179078!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a394353be7b3bfd%3A0x99b3fadf5360f814!2s193!5e0!3m2!1sen!2sin!4v1653160212383!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+
+            <footer>
+                <div class="copyright">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-md-6">
+                              <span>Copyright © 2022 Homestead</span>
+                          </div>
+                      </div>
+                      
+                  </div>
+                  
+              </div>
+            </footer>
+</body>
+
+</html>

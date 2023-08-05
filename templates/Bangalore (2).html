@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="shortcut icon" href="{{url_for('static',filename='images/FYH1.png')}}">
+  <title>Find Your Home @Bangalore</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/style(1).css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}">
+  <link rel="stylesheet" href="{{url_for('static',filename='css/price.css')}}">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="{{url_for('static',filename='script/jquery-3.6.0.min.js')}}"></script>
+  <script src="{{url_for('static',filename='script/Bangalore.js')}}"></script>
+</head>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Homestead</a>
+    
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/buy">Buy</a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/sell">Sell</a>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                    data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Predict
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="/banglore">Bangalore</a>
+                    <a class="dropdown-item" href="/mumbai">Bombay</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div class="bombayimg">
+      <div class="overlay">
+        <div class="container"><br>
+          <h2 class="Bomhead">Bangalore Price Estimation based on Area</h2>
+          <form class='form' autocomplete="on" action="{{ url_for('predict')}}"method="post">
+            <h2 class='padd' style="color: #F6F6F6">Area (Square Feet)</h2>
+            <input type="text" name="Area"  placeholder="Area in sqft" required="required" />
+            <h2 class='padd' style="color: #F6F6F6">BHK</h2>
+            <input type="text" name="bedroom" id = "bhk" placeholder="No.of Bedrooms" required="required" />
+            <h2 class='padd' style="color: #F6F6F6">Bath</h2>
+            <input type="text" name="bathroom" placeholder="No.of Bathrooms" required="required" />
+            <h2 class='padd' style="color: #F6F6F6">Location</h2>
+            <div>
+              <select class="blocation" name="blocation" id="uiLocations">
+                <option value="" disabled="disabled" selected="selected">Choose a Location</option>
+              </select>
+            </div><br><br>
+                <button type="submit" class="btn btn-primary btn-block btn-large">Predict</button>
+          </form>
+          <br>
+          <br><center>
+          <span class="predictext" >{{ prediction_text }}</span>
+          <div>
+          <span class="predictext1" style="font-size: 25px; font-weight:bold">{{prediction_text2}}</span>
+          </div>
+        </center>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+</html>

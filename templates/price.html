@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="shortcut icon" href="{{url_for('static',filename='images/FYH1.png')}}">
+    <meta charset="utf-8">
+    <title>Area wise Prediction</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='css/style.css')}}" type='text/css'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+	  <link rel="stylesheet" href="app.css">
+    <style media="screen">
+      body{
+        background-color: #f6f6f6;
+      }
+
+      .selecting{
+        font-size: 40px;
+        font-weight: bolder;
+        margin: 0;
+        font-family: 'Merriweather', serif;
+        margin-bottom: 2rem !important;
+        line-height: normal;
+        letter-spacing: normal;
+      }
+
+      .links:hover{
+  			text-decoration-line: none;
+  			color: grey;
+  		}
+
+  		.lis{
+  			color: #DFDFDE;
+  		}
+
+  		.lis:hover{
+  			text-decoration-line: none;
+  			color: #F7F5F2;
+  		}
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top" style="background-color: #1C00ff00;">
+  		<div class="container">
+  			<a class="navbar-brand" style="padding: 0" href="/">
+  				<img src="{{url_for('static',filename='images/FYH1.png')}}" style="width: 70px; height: 70px" alt="">
+  			</a>
+  			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+  				<span class="navbar-toggler-icon"></span>
+  			</button>
+  			<div class="collapse navbar-collapse" id="navbarResponsive">
+  				<ul class="navbar-nav ml-auto">
+  					<li class="nav-item active">
+  						<a class="nav-link" href="/">Home
+  							<span class="sr-only">(current)</span>
+  						</a>
+  					</li>
+  					<li class="nav-item">
+  						<a class="nav-link" href="/area">Area</a>
+  					</li>
+  					<li class="nav-item">
+  						<a class="nav-link" href="/price">Price</a>
+  					</li>
+  				</ul>
+  			</div>
+  		</div>
+  	</nav>
+
+    <section class="blog py-5" style="padding: 0 !important">
+  		<div class="container py-md-5">
+  			<h3 class=" selecting mb-sm-5 mb-4 text-center">Select a City for Price Estimation</h3>
+  			<div class="row" style="padding:20px">
+  				<div class="col-lg-6 col-md-6 blog-left mb-lg-0 mb-sm-5 pb-lg-0 pb-5" style="padding-bottom:0 !important; margin-bottom: 0 !important">
+            <a href="/bpage">
+  					<img src="{{url_for('static',filename='images/bangalore.jpeg')}}" class="img-fluid" style="height:340px; width:540px; border-radius: 10px" alt="" /></a>
+            <br><br /><p style="letter-spacing: 3px">Metropolitan city | IT Capital | Affordable | World class amenities | Safety | Community Living</p>
+
+  				</div>
+  				<div class="col-lg-6 col-md-6 blog-middle mb-lg-0 mb-sm-5 pb-lg-0 pb-md-5" style="padding-bottom:0 !important; margin-bottom: 0 !important"">
+            <a href="/mpage">
+                <img src="{{url_for('static',filename='images/Bombay.jpeg')}}" class="img-fluid" style="height:340px; width:540px; border-radius: 10px" alt="" /></a>
+                <br><br /><p style="letter-spacing: 3px">Metropolitan city | Financial Capital | World class amenities | Investment for Future | Community Living</p>
+  				</div>
+
+  			</div>
+  		</div>
+  	</section>
+	  <footer>
+		<div class="copyright">
+		  <div class="container">
+			  <div class="row">
+				  <div class="col-md-6">
+					  <span>Copyright © 2022 Homestead</span>
+				  </div>
+			  </div>
+			  <!-- End Row -->
+		  
+	</footer>
+
+   
+
+
+  </body>
+</html>

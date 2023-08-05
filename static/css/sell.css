@@ -1,0 +1,36 @@
+.form-row{
+    margin: 10px;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    margin-left: 10px;
+}
+
+.btn{
+    width: 80px;
+    height: 40px;
+    margin-left: 620%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html,body{
+  background: linear-gradient(375deg, #67e8ef, #cdfffb);
+}
+::selection{
+  color: #fff;
+  background: #1cc7d0;
+}
+
+.strong{
+  font-weight: bold;
+}
